@@ -1,0 +1,28 @@
+# ---------------------------------------------
+# robots.txt for Climax Hosiery
+# Website: https://climaxknits.com
+# Created: 2025-10-11
+# ---------------------------------------------
+
+User-agent: *
+Allow: /
+
+# Disallow admin or system folders (if they exist)
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /admin/
+Disallow: /includes/
+Disallow: /private/
+Disallow: /backup/
+
+# Crawl-delay helps reduce server load (optional)
+Crawl-delay: 5
+
+# Sitemap location
+Sitemap: https://climaxknits.com/sitemap.xml
+
+# ---------------------------------------------
+# Notes:
+# - This file allows all search engines to index your site.
+# - Sensitive folders (admin/tmp/private) are blocked for safety.
+# ---------------------------------------------

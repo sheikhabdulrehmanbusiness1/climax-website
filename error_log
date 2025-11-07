@@ -1,0 +1,14 @@
+[11-Oct-2025 13:18:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mail() in /home/climaxkn/public_html/sendmail.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/climaxkn/public_html/sendmail.php on line 31
+[11-Oct-2025 13:21:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mail() in /home/climaxkn/public_html/sendmail.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/climaxkn/public_html/sendmail.php on line 31
+[11-Oct-2025 13:35:17 UTC] PHP Warning:  require(PHPMailer/src/Exception.php): Failed to open stream: No such file or directory in /home/climaxkn/public_html/sendmail.php on line 5
+[11-Oct-2025 13:35:17 UTC] PHP Warning:  require(PHPMailer/src/Exception.php): Failed to open stream: No such file or directory in /home/climaxkn/public_html/sendmail.php on line 5
+[11-Oct-2025 13:35:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'PHPMailer/src/Exception.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/climaxkn/public_html/sendmail.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/climaxkn/public_html/sendmail.php on line 5
